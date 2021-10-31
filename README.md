@@ -1,8 +1,8 @@
-https://eng.uber.com/money-scale-strong-data/
+# go-simple-payment
+i'am inspired from this article [money-scale-strong-data](https://eng.uber.com/money-scale-strong-data/), and try to make simple implementation simple domain of order using go.
 
-
+## how to run
 ```bash
-# shell 1
 docker run --name postgres-sadbox --rm -d \
   -e POSTGRES_PASSWORD=sandbox \
   -e POSTGRES_USER=sandbox \
@@ -10,13 +10,12 @@ docker run --name postgres-sadbox --rm -d \
   -p 6543:5432 \
   postgres:13-alpine
 
-# shell 2
+make test
 make
 ```
 
+## how to use 
 ```sh
-curl -v localhost:3000/v0/order
-
 curl -H 'Content-Type: application/json' \
 -d '{
     "entries": [
