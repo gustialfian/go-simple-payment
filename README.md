@@ -1,5 +1,5 @@
 # go-simple-payment
-i'am inspired from this article [money-scale-strong-data](https://eng.uber.com/money-scale-strong-data/), and try to make simple implementation simple domain of order using go.
+i'am inspired from this article [money-scale-strong-data](https://eng.uber.com/money-scale-strong-data/), and try to make simple implementation of order domain using go.
 
 ## how to run
 ```bash
